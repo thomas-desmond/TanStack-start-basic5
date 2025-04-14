@@ -14,7 +14,7 @@ export default defineConfig({
     ],
   },
   server: {
-    preset: "cloudflare-workers",
+    preset: "cloudflare",
     unenv: cloudflare,
   },
 });
